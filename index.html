@@ -11,61 +11,79 @@
     h1, h2, h3 { font-family: 'Cormorant Garamond', serif; }
     .gold-text { color: #c5a059; }
     .bg-graphite { background-color: #2d2d2d; }
+    .frame-art { position: relative; padding: 15px; border: 1px solid #c5a059; }
+    .frame-art::after { content: ''; position: absolute; top: 8px; left: 8px; right: 8px; bottom: 8px; border: 1px solid #c5a059; }
   </style>
 </head>
 <body>
 
-  <section class="min-h-screen flex items-center justify-center pt-20 px-6">
-    <div class="max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
-      <div class="space-y-6 order-2 lg:order-1">
-        <h2 class="text-sm uppercase tracking-[0.4em] text-gray-400">Dra. Talinê Rezende • CRM 26950</h2>
-        <h1 class="text-6xl lg:text-7xl leading-[0.9]">Medicina de <br><span class="italic gold-text">Alta Performance.</span></h1>
-        <p class="text-lg text-gray-600 font-light max-w-md">Especialista em emagrecimento metabólico e tratamento de Lipedema em Goiânia. Protocolos individuais para quem busca saúde, performance e resultados reais.</p>
-        <a href="https://wa.me/556281406743" class="inline-block border border-black px-10 py-4 text-xs uppercase tracking-[0.2em] hover:bg-black hover:text-white transition-all duration-500">Agendar Consulta</a>
+  <section class="min-h-[90vh] flex items-center pt-20 px-6">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <div class="frame-art order-1">
+        <img src="expert-taline-rezende.webp" alt="Dra. Talinê Rezende" class="w-full aspect-[4/5] object-cover shadow-2xl">
       </div>
-      <div class="w-full aspect-[4/5] overflow-hidden shadow-2xl order-1 lg:order-2">
-        <img src="expert-taline-rezende.webp" alt="Dra. Talinê Rezende" class="w-full h-full object-cover grayscale-[20%]">
+      <div class="space-y-6 order-2">
+        <h2 class="text-sm uppercase tracking-[0.4em] text-gray-400">Dra. Talinê Rezende • CRM 26950</h2>
+        <h1 class="text-6xl lg:text-8xl leading-[0.9]">Medicina de <br><span class="italic gold-text">Alta Performance.</span></h1>
+        <p class="text-lg text-gray-600 font-light max-w-lg">Onde a ciência encontra a sua individualidade. Protocolos exclusivos para emagrecimento metabólico, controle do Lipedema e otimização da sua energia vital.</p>
+        <a href="https://wa.me/556281406743" class="inline-block border border-black px-10 py-4 text-xs uppercase tracking-[0.2em] hover:bg-black hover:text-white transition-all">Agendar Consulta</a>
       </div>
     </div>
   </section>
 
-  <section class="py-32 bg-graphite text-white px-6">
-    <div class="max-w-4xl mx-auto space-y-16">
-      <h2 class="text-5xl text-center">O Lipedema não é apenas estética.</h2>
-      <div class="grid md:grid-cols-2 gap-12">
-        <div class="space-y-4 border-l border-gray-600 pl-8">
-          <h3 class="text-2xl gold-text">A barreira invisível</h3>
-          <p class="text-gray-300 leading-relaxed font-light italic">"Você sente suas pernas pesadas, doloridas e desproporcionais? Dietas comuns falham porque não tratam a raiz da inflamação."</p>
+  <section class="py-32 bg-gray-50 px-6">
+    <div class="max-w-4xl mx-auto text-center space-y-12">
+      <h2 class="text-5xl italic">Seu corpo pede mais do que apenas dietas.</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-left">
+        <div class="bg-white p-8 shadow-sm border-l-4 border-black">
+          <h3 class="text-2xl mb-4">Emagrecimento Travado</h3>
+          <p class="text-gray-600">Esforço intenso, restrição calórica e, ainda assim, o peso não se move. Investigamos a causa metabólica real.</p>
         </div>
-        <div class="space-y-4 border-l border-gray-600 pl-8">
-          <h3 class="text-2xl gold-text">Solução Médica</h3>
-          <p class="text-gray-300 leading-relaxed font-light italic">"Meu método ataca a inflamação e otimiza seu metabolismo para que seu corpo, finalmente, responda ao seu esforço."</p>
+        <div class="bg-white p-8 shadow-sm border-l-4 border-black">
+          <h3 class="text-2xl mb-4">Lipedema & Inflamação</h3>
+          <p class="text-gray-600">Pernas pesadas, dor e inchaço não são apenas "gordura". Precisa de tratamento que controla a inflamação desde a raiz.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section class="py-32 px-6">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-      <div class="p-8 border border-gray-100 hover:shadow-lg transition-all duration-500">
-        <h3 class="text-3xl mb-4 italic">Emagrecimento</h3>
-        <p class="text-sm text-gray-500">Protocolos metabólicos para quem busca eficácia real e duradoura.</p>
-      </div>
-      <div class="p-8 border border-gray-100 hover:shadow-lg transition-all duration-500">
-        <h3 class="text-3xl mb-4 italic">Performance</h3>
-        <p class="text-sm text-gray-500">Otimização hormonal e vitalidade para sua rotina de alta demanda.</p>
-      </div>
-      <div class="p-8 border border-gray-100 hover:shadow-lg transition-all duration-500">
-        <h3 class="text-3xl mb-4 italic">Lipedema</h3>
-        <p class="text-sm text-gray-500">Tratamento especializado focado no controle inflamatório da doença.</p>
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-5xl text-center mb-20">Um método completo de saúde</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="p-6 border border-gray-100 hover:border-black transition-all">
+          <h3 class="text-xl mb-2 italic">Emagrecimento</h3>
+          <p class="text-xs text-gray-500">Metabolismo acelerado e redução de medidas com segurança.</p>
+        </div>
+        <div class="p-6 border border-gray-100 hover:border-black transition-all">
+          <h3 class="text-xl mb-2 italic">Performance</h3>
+          <p class="text-xs text-gray-500">Mais foco, energia e clareza mental para sua rotina.</p>
+        </div>
+        <div class="p-6 border border-gray-100 hover:border-black transition-all">
+          <h3 class="text-xl mb-2 italic">Saúde Integral</h3>
+          <p class="text-xs text-gray-500">Equilíbrio hormonal e preventivo para longevidade.</p>
+        </div>
+        <div class="p-6 border border-gray-100 hover:border-black transition-all">
+          <h3 class="text-xl mb-2 italic">Lipedema</h3>
+          <p class="text-xs text-gray-500">Diagnóstico e protocolo de controle da dor e inflamação.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="py-24 bg-gray-50 text-center px-6">
-    <div class="max-w-xl mx-auto space-y-6">
-      <h2 class="text-5xl">Pronta para o próximo nível?</h2>
-      <a href="https://wa.me/556281406743" class="block bg-black text-white py-6 uppercase tracking-[0.2em] font-semibold hover:bg-gray-800 transition-all duration-500">Falar com a equipe</a>
+  <section class="py-32 bg-graphite text-white px-6">
+    <div class="max-w-4xl mx-auto text-center space-y-8">
+      <h2 class="text-5xl italic gold-text">"Medicina não é receita pronta."</h2>
+      <p class="text-xl font-light leading-relaxed text-gray-300">"Cada paciente é um universo. Meu protocolo une a tecnologia da medicina de alta performance com a escuta atenta, tratando não apenas o sintoma, mas devolvendo a liberdade que seu corpo merece."</p>
+      <a href="https://wa.me/556281406743" class="inline-block border border-white px-10 py-4 text-xs uppercase tracking-[0.2em] hover:bg-white hover:text-black transition-all">Falar com a Dra.</a>
+    </div>
+  </section>
+
+  <section class="py-24 text-center px-6">
+    <div class="max-w-xl mx-auto space-y-8">
+      <h2 class="text-5xl">Pronta para viver com máxima performance?</h2>
+      <p class="text-gray-500">As vagas para o protocolo de acompanhamento são limitadas para garantir um atendimento de excelência.</p>
+      <a href="https://wa.me/556281406743" class="block bg-black text-white py-6 uppercase tracking-[0.2em] font-semibold hover:bg-gray-800 transition-all">Agendar agora</a>
     </div>
   </section>
 
